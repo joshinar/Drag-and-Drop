@@ -1,0 +1,27 @@
+.fill {
+	background: url('https://source.unsplash.com/WLUHO9A_xik/150x150');
+	height: 150px;
+	width: 150px;
+	margin-top: 5px;
+	margin-left: 5px;
+	cursor: pointer;
+}
+
+.empty {
+	display: inline-block;
+	width: 160px;
+	height: 160px;
+	margin: 10px;
+	border: 1px solid black;
+
+	background: white;
+}
+
+.invisible {
+	display: none;
+}
+
+.hovered {
+	background: #ccc;
+	border-style: dashed;
+}
